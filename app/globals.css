@@ -117,3 +117,14 @@
   font-weight: 900;
   font-style: italic;
 }
+
+.background::after {
+  background-image: url('/blood.png');
+  z-index: 100;
+  top: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background: black ; */
+  /* backdrop-filter: blur(10px); */
+}
