@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'আর্তনাদ',
     images: [
       {
-        url: '',
+        url: 'https://artonad.vercel.app/one.jng',
         width: 800,
         height: 600,
       },
