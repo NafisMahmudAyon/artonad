@@ -10,7 +10,7 @@ const SingleStory: React.FC<SingleStoryProps> = ({ index }) => {
   const story = Story[index];
   return (
     <div className="p-4 max-w-4xl mx-auto bg-white rounded-lg shadow-md">
-      <h1 className="text-2xl font-bold mb-4">{story.title}</h1>
+      <h1 className="text-2xl mb-4">{story.title}</h1>
       <p className="text-gray-600 mb-2 poppins-regular text-xs">By {story.author} on {story.date}</p>
       <p className="text-gray-800 mb-4 ">
         <a href={story.sourceUrl} className="underline text-blue-600" target="_blank" rel="noopener noreferrer">
