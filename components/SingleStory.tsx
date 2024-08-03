@@ -28,6 +28,7 @@ const SingleStory: React.FC<SingleStoryProps> = ({ index }) => {
               src={src}
               alt={story.imgCaption[i]}
               layout="fill"
+              loading="lazy"
               objectFit="cover"
               className="rounded-md"
             />

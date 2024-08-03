@@ -26,6 +26,7 @@ export default function Home() {
                   src={story.image}
                   alt={story.title}
                   layout="fill"
+                  loading="lazy"
                   objectPosition="top"
                 />
               </div>
